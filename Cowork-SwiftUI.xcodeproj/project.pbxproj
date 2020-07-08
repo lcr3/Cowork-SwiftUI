@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2978082B24B54784008B1384 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2978082A24B54784008B1384 /* AppDelegate.swift */; };
+		2978082D24B54784008B1384 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2978082C24B54784008B1384 /* SceneDelegate.swift */; };
+		2978082F24B54784008B1384 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2978082E24B54784008B1384 /* ContentView.swift */; };
+		2978083124B54787008B1384 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2978083024B54787008B1384 /* Assets.xcassets */; };
+		2978083424B54787008B1384 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2978083324B54787008B1384 /* Preview Assets.xcassets */; };
+		2978083724B54787008B1384 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2978083524B54787008B1384 /* LaunchScreen.storyboard */; };
+		2978084224B54787008B1384 /* Cowork_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2978084124B54787008B1384 /* Cowork_SwiftUITests.swift */; };
+		2978084D24B54787008B1384 /* Cowork_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2978084C24B54787008B1384 /* Cowork_SwiftUIUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2978083E24B54787008B1384 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2978081F24B54784008B1384 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2978082624B54784008B1384;
+			remoteInfo = "Cowork-SwiftUI";
+		};
+		2978084924B54787008B1384 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2978081F24B54784008B1384 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2978082624B54784008B1384;
+			remoteInfo = "Cowork-SwiftUI";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2978082724B54784008B1384 /* Cowork-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cowork-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2978082A24B54784008B1384 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2978082C24B54784008B1384 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2978082E24B54784008B1384 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2978083024B54787008B1384 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2978083324B54787008B1384 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2978083624B54787008B1384 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2978083824B54787008B1384 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2978083D24B54787008B1384 /* Cowork-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cowork-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2978084124B54787008B1384 /* Cowork_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cowork_SwiftUITests.swift; sourceTree = "<group>"; };
+		2978084324B54787008B1384 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2978084824B54787008B1384 /* Cowork-SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cowork-SwiftUIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2978084C24B54787008B1384 /* Cowork_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cowork_SwiftUIUITests.swift; sourceTree = "<group>"; };
+		2978084E24B54787008B1384 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2978082424B54784008B1384 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2978083A24B54787008B1384 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2978084524B54787008B1384 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2978081E24B54784008B1384 = {
+			isa = PBXGroup;
+			children = (
+				2978082924B54784008B1384 /* Cowork-SwiftUI */,
+				2978084024B54787008B1384 /* Cowork-SwiftUITests */,
+				2978084B24B54787008B1384 /* Cowork-SwiftUIUITests */,
+				2978082824B54784008B1384 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2978082824B54784008B1384 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2978082724B54784008B1384 /* Cowork-SwiftUI.app */,
+				2978083D24B54787008B1384 /* Cowork-SwiftUITests.xctest */,
+				2978084824B54787008B1384 /* Cowork-SwiftUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2978082924B54784008B1384 /* Cowork-SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				2978082A24B54784008B1384 /* AppDelegate.swift */,
+				2978082C24B54784008B1384 /* SceneDelegate.swift */,
+				2978082E24B54784008B1384 /* ContentView.swift */,
+				2978083024B54787008B1384 /* Assets.xcassets */,
+				2978083524B54787008B1384 /* LaunchScreen.storyboard */,
+				2978083824B54787008B1384 /* Info.plist */,
+				2978083224B54787008B1384 /* Preview Content */,
+			);
+			path = "Cowork-SwiftUI";
+			sourceTree = "<group>";
+		};
+		2978083224B54787008B1384 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2978083324B54787008B1384 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2978084024B54787008B1384 /* Cowork-SwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2978084124B54787008B1384 /* Cowork_SwiftUITests.swift */,
+				2978084324B54787008B1384 /* Info.plist */,
+			);
+			path = "Cowork-SwiftUITests";
+			sourceTree = "<group>";
+		};
+		2978084B24B54787008B1384 /* Cowork-SwiftUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2978084C24B54787008B1384 /* Cowork_SwiftUIUITests.swift */,
+				2978084E24B54787008B1384 /* Info.plist */,
+			);
+			path = "Cowork-SwiftUIUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2978082624B54784008B1384 /* Cowork-SwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2978085124B54787008B1384 /* Build configuration list for PBXNativeTarget "Cowork-SwiftUI" */;
+			buildPhases = (
+				2978082324B54784008B1384 /* Sources */,
+				2978082424B54784008B1384 /* Frameworks */,
+				2978082524B54784008B1384 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cowork-SwiftUI";
+			productName = "Cowork-SwiftUI";
+			productReference = 2978082724B54784008B1384 /* Cowork-SwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2978083C24B54787008B1384 /* Cowork-SwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2978085424B54787008B1384 /* Build configuration list for PBXNativeTarget "Cowork-SwiftUITests" */;
+			buildPhases = (
+				2978083924B54787008B1384 /* Sources */,
+				2978083A24B54787008B1384 /* Frameworks */,
+				2978083B24B54787008B1384 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2978083F24B54787008B1384 /* PBXTargetDependency */,
+			);
+			name = "Cowork-SwiftUITests";
+			productName = "Cowork-SwiftUITests";
+			productReference = 2978083D24B54787008B1384 /* Cowork-SwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2978084724B54787008B1384 /* Cowork-SwiftUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2978085724B54787008B1384 /* Build configuration list for PBXNativeTarget "Cowork-SwiftUIUITests" */;
+			buildPhases = (
+				2978084424B54787008B1384 /* Sources */,
+				2978084524B54787008B1384 /* Frameworks */,
+				2978084624B54787008B1384 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2978084A24B54787008B1384 /* PBXTargetDependency */,
+			);
+			name = "Cowork-SwiftUIUITests";
+			productName = "Cowork-SwiftUIUITests";
+			productReference = 2978084824B54787008B1384 /* Cowork-SwiftUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2978081F24B54784008B1384 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = lcr;
+				TargetAttributes = {
+					2978082624B54784008B1384 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					2978083C24B54787008B1384 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 2978082624B54784008B1384;
+					};
+					2978084724B54787008B1384 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 2978082624B54784008B1384;
+					};
+				};
+			};
+			buildConfigurationList = 2978082224B54784008B1384 /* Build configuration list for PBXProject "Cowork-SwiftUI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2978081E24B54784008B1384;
+			productRefGroup = 2978082824B54784008B1384 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2978082624B54784008B1384 /* Cowork-SwiftUI */,
+				2978083C24B54787008B1384 /* Cowork-SwiftUITests */,
+				2978084724B54787008B1384 /* Cowork-SwiftUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2978082524B54784008B1384 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2978083724B54787008B1384 /* LaunchScreen.storyboard in Resources */,
+				2978083424B54787008B1384 /* Preview Assets.xcassets in Resources */,
+				2978083124B54787008B1384 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2978083B24B54787008B1384 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2978084624B54787008B1384 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2978082324B54784008B1384 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2978082B24B54784008B1384 /* AppDelegate.swift in Sources */,
+				2978082D24B54784008B1384 /* SceneDelegate.swift in Sources */,
+				2978082F24B54784008B1384 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2978083924B54787008B1384 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2978084224B54787008B1384 /* Cowork_SwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2978084424B54787008B1384 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2978084D24B54787008B1384 /* Cowork_SwiftUIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2978083F24B54787008B1384 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2978082624B54784008B1384 /* Cowork-SwiftUI */;
+			targetProxy = 2978083E24B54787008B1384 /* PBXContainerItemProxy */;
+		};
+		2978084A24B54787008B1384 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2978082624B54784008B1384 /* Cowork-SwiftUI */;
+			targetProxy = 2978084924B54787008B1384 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2978083524B54787008B1384 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2978083624B54787008B1384 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2978084F24B54787008B1384 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2978085024B54787008B1384 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2978085224B54787008B1384 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Cowork-SwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 5L5U5529ZE;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Cowork-SwiftUI/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lcr.Cowork-SwiftUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2978085324B54787008B1384 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Cowork-SwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 5L5U5529ZE;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Cowork-SwiftUI/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lcr.Cowork-SwiftUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2978085524B54787008B1384 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5L5U5529ZE;
+				INFOPLIST_FILE = "Cowork-SwiftUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lcr.Cowork-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cowork-SwiftUI.app/Cowork-SwiftUI";
+			};
+			name = Debug;
+		};
+		2978085624B54787008B1384 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5L5U5529ZE;
+				INFOPLIST_FILE = "Cowork-SwiftUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lcr.Cowork-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cowork-SwiftUI.app/Cowork-SwiftUI";
+			};
+			name = Release;
+		};
+		2978085824B54787008B1384 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5L5U5529ZE;
+				INFOPLIST_FILE = "Cowork-SwiftUIUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lcr.Cowork-SwiftUIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Cowork-SwiftUI";
+			};
+			name = Debug;
+		};
+		2978085924B54787008B1384 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5L5U5529ZE;
+				INFOPLIST_FILE = "Cowork-SwiftUIUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lcr.Cowork-SwiftUIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Cowork-SwiftUI";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2978082224B54784008B1384 /* Build configuration list for PBXProject "Cowork-SwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2978084F24B54787008B1384 /* Debug */,
+				2978085024B54787008B1384 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2978085124B54787008B1384 /* Build configuration list for PBXNativeTarget "Cowork-SwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2978085224B54787008B1384 /* Debug */,
+				2978085324B54787008B1384 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2978085424B54787008B1384 /* Build configuration list for PBXNativeTarget "Cowork-SwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2978085524B54787008B1384 /* Debug */,
+				2978085624B54787008B1384 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2978085724B54787008B1384 /* Build configuration list for PBXNativeTarget "Cowork-SwiftUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2978085824B54787008B1384 /* Debug */,
+				2978085924B54787008B1384 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2978081F24B54784008B1384 /* Project object */;
+}
