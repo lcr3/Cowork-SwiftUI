@@ -20,6 +20,12 @@
 		299D470324B54C940073A765 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299D470224B54C940073A765 /* Colors.swift */; };
 		29B31E7424B5EDE300FF7D7F /* EmailLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B31E7324B5EDE300FF7D7F /* EmailLoginView.swift */; };
 		29B31E7524B5EDE300FF7D7F /* EmailLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B31E7324B5EDE300FF7D7F /* EmailLoginView.swift */; };
+		29D0D5EA24B695BF00CF7DBC /* EmailLoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D0D5E924B695BF00CF7DBC /* EmailLoginViewModel.swift */; };
+		29D0D5EB24B695BF00CF7DBC /* EmailLoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D0D5E924B695BF00CF7DBC /* EmailLoginViewModel.swift */; };
+		29D0D5ED24B695FA00CF7DBC /* ViewModelObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D0D5EC24B695FA00CF7DBC /* ViewModelObject.swift */; };
+		29D0D5EE24B695FA00CF7DBC /* ViewModelObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D0D5EC24B695FA00CF7DBC /* ViewModelObject.swift */; };
+		29D0D5F124B6CE2A00CF7DBC /* LoginButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D0D5F024B6CE2A00CF7DBC /* LoginButtonStyle.swift */; };
+		29D0D5F224B6CE2A00CF7DBC /* LoginButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D0D5F024B6CE2A00CF7DBC /* LoginButtonStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +63,9 @@
 		2978085C24B548B3008B1384 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
 		299D470224B54C940073A765 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		29B31E7324B5EDE300FF7D7F /* EmailLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailLoginView.swift; sourceTree = "<group>"; };
+		29D0D5E924B695BF00CF7DBC /* EmailLoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailLoginViewModel.swift; sourceTree = "<group>"; };
+		29D0D5EC24B695FA00CF7DBC /* ViewModelObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelObject.swift; sourceTree = "<group>"; };
+		29D0D5F024B6CE2A00CF7DBC /* LoginButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButtonStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +168,8 @@
 		2978085B24B54848008B1384 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				29D0D5E824B6955200CF7DBC /* LoginView */,
+				29D0D5EC24B695FA00CF7DBC /* ViewModelObject.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -166,6 +177,7 @@
 		2978085F24B548C0008B1384 /* StartView */ = {
 			isa = PBXGroup;
 			children = (
+				29D0D5EF24B6CE1A00CF7DBC /* SubViews */,
 				2978085C24B548B3008B1384 /* StartView.swift */,
 			);
 			path = StartView;
@@ -185,6 +197,22 @@
 				29B31E7324B5EDE300FF7D7F /* EmailLoginView.swift */,
 			);
 			path = LoginView;
+			sourceTree = "<group>";
+		};
+		29D0D5E824B6955200CF7DBC /* LoginView */ = {
+			isa = PBXGroup;
+			children = (
+				29D0D5E924B695BF00CF7DBC /* EmailLoginViewModel.swift */,
+			);
+			path = LoginView;
+			sourceTree = "<group>";
+		};
+		29D0D5EF24B6CE1A00CF7DBC /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				29D0D5F024B6CE2A00CF7DBC /* LoginButtonStyle.swift */,
+			);
+			path = SubViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -319,8 +347,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2978082B24B54784008B1384 /* AppDelegate.swift in Sources */,
+				29D0D5F124B6CE2A00CF7DBC /* LoginButtonStyle.swift in Sources */,
 				299D470324B54C940073A765 /* Colors.swift in Sources */,
 				2978082D24B54784008B1384 /* SceneDelegate.swift in Sources */,
+				29D0D5ED24B695FA00CF7DBC /* ViewModelObject.swift in Sources */,
+				29D0D5EA24B695BF00CF7DBC /* EmailLoginViewModel.swift in Sources */,
 				29B31E7424B5EDE300FF7D7F /* EmailLoginView.swift in Sources */,
 				2978082F24B54784008B1384 /* ContentView.swift in Sources */,
 				2978085D24B548B3008B1384 /* StartView.swift in Sources */,
@@ -332,6 +363,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				29B31E7524B5EDE300FF7D7F /* EmailLoginView.swift in Sources */,
+				29D0D5F224B6CE2A00CF7DBC /* LoginButtonStyle.swift in Sources */,
+				29D0D5EB24B695BF00CF7DBC /* EmailLoginViewModel.swift in Sources */,
+				29D0D5EE24B695FA00CF7DBC /* ViewModelObject.swift in Sources */,
 				2978084224B54787008B1384 /* Cowork_SwiftUITests.swift in Sources */,
 				2978085E24B548B3008B1384 /* StartView.swift in Sources */,
 			);
