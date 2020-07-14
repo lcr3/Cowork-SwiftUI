@@ -39,10 +39,10 @@ struct EmailLoginView: View {
                 }
                 .border(Color.black, width: 0.5)
 
-                Button(action: { self.viewModel.input.loginButtonTapped.send(()) }) {
+                Button(action: { self.viewModel.input.loginButtonTapped.send() }) {
                     HStack() {
                         Spacer()
-                        Text("サインアップ")
+                        Text("ログイン")
                             .padding(.vertical)
                         Spacer()
                     }

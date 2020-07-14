@@ -53,14 +53,37 @@ final class EmailLoginViewModel: ViewModelObject {
            )
         .map { $0.0 && $0.1 }
 
-        // 組み立てたストリームをbinding, outputに反映
-        cancellables.formUnion([isLoginEnabled.assign(to: \.isLoginButtonEnabled, on: output)])
-
         self.input = input
         self.binding = binding
         self.output = output
+
+        let _ = self.input.loginButtonTapped
+            .sink { print("login") }
+            .store(in: &cancellables)
+
+        // 組み立てたストリームをbinding, outputに反映
+        cancellables.formUnion([isLoginEnabled.assign(to: \.isLoginButtonEnabled, on: output)])
+
     }
 
+    func login() -> AnyPublisher<User, Error> {
+        isBusy = true
+        validationText = ""
+
+        return authProvider.login(userId: userId, password: password)
+            .receive(on: RunLoop.main)
+            .handleEvents(receiveCompletion: { [weak self] completion in
+                switch completion {
+                case .finished:
+                    self?.validationText = ""
+                case .failure:
+                    self?.validationText = "Incorrect ID or password"
+                }
+
+                self?.isBusy = false
+            })
+            .eraseToAnyPublisher()
+    }
     /*
      ViewModelの実装は基本的にイニシャライザのみで、InputObject、BindingObjectから流れてくるストリームの合成を行い、
      その結果をBindingObject、OutputObjectに反映させています。BindingObjectに定義されている双方向バインディング用の値は@Publishedとして定義されているため、
