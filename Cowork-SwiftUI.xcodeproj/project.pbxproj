@@ -20,6 +20,34 @@
 		299D470324B54C940073A765 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299D470224B54C940073A765 /* Colors.swift */; };
 		29B31E7424B5EDE300FF7D7F /* EmailLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B31E7324B5EDE300FF7D7F /* EmailLoginView.swift */; };
 		29B31E7524B5EDE300FF7D7F /* EmailLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B31E7324B5EDE300FF7D7F /* EmailLoginView.swift */; };
+		29D0D5EA24B695BF00CF7DBC /* EmailLoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D0D5E924B695BF00CF7DBC /* EmailLoginViewModel.swift */; };
+		29D0D5EB24B695BF00CF7DBC /* EmailLoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D0D5E924B695BF00CF7DBC /* EmailLoginViewModel.swift */; };
+		29D0D5ED24B695FA00CF7DBC /* ViewModelObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D0D5EC24B695FA00CF7DBC /* ViewModelObject.swift */; };
+		29D0D5EE24B695FA00CF7DBC /* ViewModelObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D0D5EC24B695FA00CF7DBC /* ViewModelObject.swift */; };
+		29D0D5F124B6CE2A00CF7DBC /* LoginButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D0D5F024B6CE2A00CF7DBC /* LoginButtonStyle.swift */; };
+		29D0D5F224B6CE2A00CF7DBC /* LoginButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D0D5F024B6CE2A00CF7DBC /* LoginButtonStyle.swift */; };
+		29D0D5F624B7E87F00CF7DBC /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D0D5F524B7E87F00CF7DBC /* DashboardView.swift */; };
+		29D0D5F724B7E87F00CF7DBC /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D0D5F524B7E87F00CF7DBC /* DashboardView.swift */; };
+		29D0D60324BD33FC00CF7DBC /* FIRAnalyticsConnector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29D0D5F924BD33FC00CF7DBC /* FIRAnalyticsConnector.framework */; };
+		29D0D60424BD33FC00CF7DBC /* FIRAnalyticsConnector.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 29D0D5F924BD33FC00CF7DBC /* FIRAnalyticsConnector.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		29D0D60524BD33FC00CF7DBC /* GTMSessionFetcher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29D0D5FA24BD33FC00CF7DBC /* GTMSessionFetcher.framework */; };
+		29D0D60624BD33FC00CF7DBC /* GTMSessionFetcher.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 29D0D5FA24BD33FC00CF7DBC /* GTMSessionFetcher.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		29D0D60724BD33FC00CF7DBC /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29D0D5FB24BD33FC00CF7DBC /* FirebaseAnalytics.framework */; };
+		29D0D60824BD33FD00CF7DBC /* FirebaseAnalytics.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 29D0D5FB24BD33FC00CF7DBC /* FirebaseAnalytics.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		29D0D60924BD33FD00CF7DBC /* FirebaseInstanceID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29D0D5FC24BD33FC00CF7DBC /* FirebaseInstanceID.framework */; };
+		29D0D60A24BD33FD00CF7DBC /* FirebaseInstanceID.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 29D0D5FC24BD33FC00CF7DBC /* FirebaseInstanceID.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		29D0D60B24BD33FD00CF7DBC /* GoogleAppMeasurement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29D0D5FD24BD33FC00CF7DBC /* GoogleAppMeasurement.framework */; };
+		29D0D60C24BD33FD00CF7DBC /* GoogleAppMeasurement.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 29D0D5FD24BD33FC00CF7DBC /* GoogleAppMeasurement.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		29D0D60D24BD33FD00CF7DBC /* GoogleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29D0D5FE24BD33FC00CF7DBC /* GoogleUtilities.framework */; };
+		29D0D60E24BD33FD00CF7DBC /* GoogleUtilities.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 29D0D5FE24BD33FC00CF7DBC /* GoogleUtilities.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		29D0D60F24BD33FD00CF7DBC /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29D0D5FF24BD33FC00CF7DBC /* Firebase.framework */; };
+		29D0D61024BD33FD00CF7DBC /* Firebase.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 29D0D5FF24BD33FC00CF7DBC /* Firebase.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		29D0D61124BD33FD00CF7DBC /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29D0D60024BD33FC00CF7DBC /* FirebaseCore.framework */; };
+		29D0D61224BD33FD00CF7DBC /* FirebaseCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 29D0D60024BD33FC00CF7DBC /* FirebaseCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		29D0D61324BD33FD00CF7DBC /* FirebaseAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29D0D60124BD33FC00CF7DBC /* FirebaseAuth.framework */; };
+		29D0D61424BD33FD00CF7DBC /* FirebaseAuth.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 29D0D60124BD33FC00CF7DBC /* FirebaseAuth.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		29D0D61524BD33FD00CF7DBC /* nanopb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29D0D60224BD33FC00CF7DBC /* nanopb.framework */; };
+		29D0D61624BD33FD00CF7DBC /* nanopb.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 29D0D60224BD33FC00CF7DBC /* nanopb.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +67,29 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		29D0D61724BD33FD00CF7DBC /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				29D0D61424BD33FD00CF7DBC /* FirebaseAuth.framework in Embed Frameworks */,
+				29D0D60E24BD33FD00CF7DBC /* GoogleUtilities.framework in Embed Frameworks */,
+				29D0D61624BD33FD00CF7DBC /* nanopb.framework in Embed Frameworks */,
+				29D0D60624BD33FC00CF7DBC /* GTMSessionFetcher.framework in Embed Frameworks */,
+				29D0D60424BD33FC00CF7DBC /* FIRAnalyticsConnector.framework in Embed Frameworks */,
+				29D0D61024BD33FD00CF7DBC /* Firebase.framework in Embed Frameworks */,
+				29D0D61224BD33FD00CF7DBC /* FirebaseCore.framework in Embed Frameworks */,
+				29D0D60C24BD33FD00CF7DBC /* GoogleAppMeasurement.framework in Embed Frameworks */,
+				29D0D60824BD33FD00CF7DBC /* FirebaseAnalytics.framework in Embed Frameworks */,
+				29D0D60A24BD33FD00CF7DBC /* FirebaseInstanceID.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		2978082724B54784008B1384 /* Cowork-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cowork-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2978082A24B54784008B1384 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -57,6 +108,20 @@
 		2978085C24B548B3008B1384 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
 		299D470224B54C940073A765 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		29B31E7324B5EDE300FF7D7F /* EmailLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailLoginView.swift; sourceTree = "<group>"; };
+		29D0D5E924B695BF00CF7DBC /* EmailLoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailLoginViewModel.swift; sourceTree = "<group>"; };
+		29D0D5EC24B695FA00CF7DBC /* ViewModelObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelObject.swift; sourceTree = "<group>"; };
+		29D0D5F024B6CE2A00CF7DBC /* LoginButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButtonStyle.swift; sourceTree = "<group>"; };
+		29D0D5F524B7E87F00CF7DBC /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		29D0D5F924BD33FC00CF7DBC /* FIRAnalyticsConnector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FIRAnalyticsConnector.framework; path = Carthage/Build/iOS/FIRAnalyticsConnector.framework; sourceTree = "<group>"; };
+		29D0D5FA24BD33FC00CF7DBC /* GTMSessionFetcher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GTMSessionFetcher.framework; path = Carthage/Build/iOS/GTMSessionFetcher.framework; sourceTree = "<group>"; };
+		29D0D5FB24BD33FC00CF7DBC /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Carthage/Build/iOS/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		29D0D5FC24BD33FC00CF7DBC /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Carthage/Build/iOS/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		29D0D5FD24BD33FC00CF7DBC /* GoogleAppMeasurement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleAppMeasurement.framework; path = Carthage/Build/iOS/GoogleAppMeasurement.framework; sourceTree = "<group>"; };
+		29D0D5FE24BD33FC00CF7DBC /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Carthage/Build/iOS/GoogleUtilities.framework; sourceTree = "<group>"; };
+		29D0D5FF24BD33FC00CF7DBC /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Firebase.framework; path = Carthage/Build/iOS/Firebase.framework; sourceTree = "<group>"; };
+		29D0D60024BD33FC00CF7DBC /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCore.framework; path = Carthage/Build/iOS/FirebaseCore.framework; sourceTree = "<group>"; };
+		29D0D60124BD33FC00CF7DBC /* FirebaseAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAuth.framework; path = Carthage/Build/iOS/FirebaseAuth.framework; sourceTree = "<group>"; };
+		29D0D60224BD33FC00CF7DBC /* nanopb.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = nanopb.framework; path = Carthage/Build/iOS/nanopb.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +129,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29D0D61324BD33FD00CF7DBC /* FirebaseAuth.framework in Frameworks */,
+				29D0D60D24BD33FD00CF7DBC /* GoogleUtilities.framework in Frameworks */,
+				29D0D61524BD33FD00CF7DBC /* nanopb.framework in Frameworks */,
+				29D0D60524BD33FC00CF7DBC /* GTMSessionFetcher.framework in Frameworks */,
+				29D0D60324BD33FC00CF7DBC /* FIRAnalyticsConnector.framework in Frameworks */,
+				29D0D60F24BD33FD00CF7DBC /* Firebase.framework in Frameworks */,
+				29D0D61124BD33FD00CF7DBC /* FirebaseCore.framework in Frameworks */,
+				29D0D60B24BD33FD00CF7DBC /* GoogleAppMeasurement.framework in Frameworks */,
+				29D0D60724BD33FC00CF7DBC /* FirebaseAnalytics.framework in Frameworks */,
+				29D0D60924BD33FD00CF7DBC /* FirebaseInstanceID.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +166,7 @@
 				2978084024B54787008B1384 /* Cowork-SwiftUITests */,
 				2978084B24B54787008B1384 /* Cowork-SwiftUIUITests */,
 				2978082824B54784008B1384 /* Products */,
+				29D0D5F824BD33FC00CF7DBC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,8 +184,9 @@
 			isa = PBXGroup;
 			children = (
 				299D470124B54C860073A765 /* Common */,
-				2978085B24B54848008B1384 /* ViewModel */,
+				29D0D5F324B7E75E00CF7DBC /* Model */,
 				2978085A24B54843008B1384 /* View */,
+				2978085B24B54848008B1384 /* ViewModel */,
 				2978082A24B54784008B1384 /* AppDelegate.swift */,
 				2978082C24B54784008B1384 /* SceneDelegate.swift */,
 				2978082E24B54784008B1384 /* ContentView.swift */,
@@ -150,6 +227,7 @@
 		2978085A24B54843008B1384 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				29D0D5F424B7E86B00CF7DBC /* Dashboard */,
 				29B31E7224B5EDC700FF7D7F /* LoginView */,
 				2978085F24B548C0008B1384 /* StartView */,
 			);
@@ -159,6 +237,8 @@
 		2978085B24B54848008B1384 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				29D0D5E824B6955200CF7DBC /* LoginView */,
+				29D0D5EC24B695FA00CF7DBC /* ViewModelObject.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -166,6 +246,7 @@
 		2978085F24B548C0008B1384 /* StartView */ = {
 			isa = PBXGroup;
 			children = (
+				29D0D5EF24B6CE1A00CF7DBC /* SubViews */,
 				2978085C24B548B3008B1384 /* StartView.swift */,
 			);
 			path = StartView;
@@ -187,6 +268,54 @@
 			path = LoginView;
 			sourceTree = "<group>";
 		};
+		29D0D5E824B6955200CF7DBC /* LoginView */ = {
+			isa = PBXGroup;
+			children = (
+				29D0D5E924B695BF00CF7DBC /* EmailLoginViewModel.swift */,
+			);
+			path = LoginView;
+			sourceTree = "<group>";
+		};
+		29D0D5EF24B6CE1A00CF7DBC /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				29D0D5F024B6CE2A00CF7DBC /* LoginButtonStyle.swift */,
+			);
+			path = SubViews;
+			sourceTree = "<group>";
+		};
+		29D0D5F324B7E75E00CF7DBC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		29D0D5F424B7E86B00CF7DBC /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				29D0D5F524B7E87F00CF7DBC /* DashboardView.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		29D0D5F824BD33FC00CF7DBC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29D0D5F924BD33FC00CF7DBC /* FIRAnalyticsConnector.framework */,
+				29D0D5FF24BD33FC00CF7DBC /* Firebase.framework */,
+				29D0D5FB24BD33FC00CF7DBC /* FirebaseAnalytics.framework */,
+				29D0D60124BD33FC00CF7DBC /* FirebaseAuth.framework */,
+				29D0D60024BD33FC00CF7DBC /* FirebaseCore.framework */,
+				29D0D5FC24BD33FC00CF7DBC /* FirebaseInstanceID.framework */,
+				29D0D5FD24BD33FC00CF7DBC /* GoogleAppMeasurement.framework */,
+				29D0D5FE24BD33FC00CF7DBC /* GoogleUtilities.framework */,
+				29D0D5FA24BD33FC00CF7DBC /* GTMSessionFetcher.framework */,
+				29D0D60224BD33FC00CF7DBC /* nanopb.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -197,6 +326,7 @@
 				2978082324B54784008B1384 /* Sources */,
 				2978082424B54784008B1384 /* Frameworks */,
 				2978082524B54784008B1384 /* Resources */,
+				29D0D61724BD33FD00CF7DBC /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -319,9 +449,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				2978082B24B54784008B1384 /* AppDelegate.swift in Sources */,
+				29D0D5F124B6CE2A00CF7DBC /* LoginButtonStyle.swift in Sources */,
 				299D470324B54C940073A765 /* Colors.swift in Sources */,
 				2978082D24B54784008B1384 /* SceneDelegate.swift in Sources */,
+				29D0D5ED24B695FA00CF7DBC /* ViewModelObject.swift in Sources */,
+				29D0D5EA24B695BF00CF7DBC /* EmailLoginViewModel.swift in Sources */,
 				29B31E7424B5EDE300FF7D7F /* EmailLoginView.swift in Sources */,
+				29D0D5F624B7E87F00CF7DBC /* DashboardView.swift in Sources */,
 				2978082F24B54784008B1384 /* ContentView.swift in Sources */,
 				2978085D24B548B3008B1384 /* StartView.swift in Sources */,
 			);
@@ -332,6 +466,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				29B31E7524B5EDE300FF7D7F /* EmailLoginView.swift in Sources */,
+				29D0D5F224B6CE2A00CF7DBC /* LoginButtonStyle.swift in Sources */,
+				29D0D5EB24B695BF00CF7DBC /* EmailLoginViewModel.swift in Sources */,
+				29D0D5F724B7E87F00CF7DBC /* DashboardView.swift in Sources */,
+				29D0D5EE24B695FA00CF7DBC /* ViewModelObject.swift in Sources */,
 				2978084224B54787008B1384 /* Cowork_SwiftUITests.swift in Sources */,
 				2978085E24B548B3008B1384 /* StartView.swift in Sources */,
 			);
@@ -494,6 +632,10 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Cowork-SwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = 5L5U5529ZE;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "Cowork-SwiftUI/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -514,6 +656,10 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Cowork-SwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = 5L5U5529ZE;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "Cowork-SwiftUI/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

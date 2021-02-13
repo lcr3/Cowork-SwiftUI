@@ -6,10 +6,11 @@
 //  Copyright © 2020 lcr. All rights reserved.
 //
 
+import Combine
 import SwiftUI
 
 struct EmailLoginView: View {
-    @State private var mailText = ""
+    @ObservedObject var viewModel: EmailLoginViewModel
 
     var body: some View {
         VStack() {
@@ -22,45 +23,48 @@ struct EmailLoginView: View {
             VStack(spacing: 24) {
                 VStack() {
                     VStack() {
-                        TextField("メールアドレス", text: $mailText, onEditingChanged: { isBegin in
-                        }, onCommit: {
-                        })
-                        .padding(.horizontal, 12)
+                        TextField("メールアドレス", text: viewModel.$binding.email)
+                            .padding(.horizontal, 12)
                     }
                     .frame(height: 50, alignment: .center)
                 }
                 .border(Color.black, width: 0.5)
-
 
                 VStack() {
                     VStack() {
-                        TextField("パスワード", text: $mailText, onEditingChanged: { isBegin in
-                        }, onCommit: {
-                        })
+                        SecureField("パスワード", text: viewModel.$binding.password)
                         .padding(.horizontal, 12)
                     }
                     .frame(height: 50, alignment: .center)
                 }
                 .border(Color.black, width: 0.5)
 
-
-                Button("ログイン") {
-
+                Button(action: { self.viewModel.input.loginButtonTapped.send() }) {
+                    HStack() {
+                        Spacer()
+                        Text("ログイン")
+                            .padding(.vertical)
+                        Spacer()
+                    }
                 }
+                .disabled(!viewModel.output.isLoginButtonEnabled)
                 .frame(maxWidth: .infinity)
                 .frame(height: 50)
                 .foregroundColor(.white)
-                .background(Colors.startMailButtonColor)
+                .background(loginButtonColor())
                 .cornerRadius(8)
-
             }
         }
         .padding(.horizontal, 34)
+    }
+
+    func loginButtonColor() -> Color {
+        return viewModel.output.isLoginButtonEnabled ? Colors.startMailButtonColor: .gray
     }
 }
 
 struct EmailLoginView_Previews: PreviewProvider {
     static var previews: some View {
-        EmailLoginView()
+        EmailLoginView(viewModel: EmailLoginViewModel())
     }
 }

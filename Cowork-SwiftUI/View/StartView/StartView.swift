@@ -37,7 +37,7 @@ struct StartView: View {
 
                     Button(action: {
                     }) {
-                        NavigationLink(destination: EmailLoginView()) {
+                        NavigationLink(destination: EmailLoginView(viewModel: EmailLoginViewModel())) {
                             Text("メールアドレスで登録")
                         }
                     }
